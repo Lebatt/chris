@@ -5,13 +5,13 @@ import time
 
 def random_list():
     my_list = []
-    numerus = 100
+    numerus = 10000
     for i in range(1, numerus + 1):
         n = random.randint(1, numerus)
         my_list.append(n)
     size = len(my_list)
     print("Size of List: ", size)
-    print("Unsorted List: ", my_list)
+    #print("Unsorted List: ", my_list)
     return my_list
 
 def selection_sort(my_list):
@@ -27,7 +27,7 @@ def selection_sort(my_list):
                 min_index = j
         # After finding the lowest item of the unsorted regions, swap with the first unsorted item
         my_list[i], my_list[min_index] = my_list[min_index], my_list[i]
-    print("Selection Sorted List: ", my_list)
+    #print("Selection Sorted List: ", my_list)
 
 class Stopwatch:
     def __init__(self, msg=""):
@@ -43,14 +43,13 @@ class Stopwatch:
     def __exit__(self, exc_type, exc_val, exc_tb):
         print(self.msg, self.current())
 
-with Stopwatch("Final Time: ") as stopwatch:
-    time.sleep(1)
-    print("Current:", stopwatch.current())
-    time.sleep(1)
-
 
 my_list = random_list()
-selection_sort(my_list)
+with Stopwatch("Final Time: ") as stopwatch:
+    selection_sort(my_list)
+    stopwatch
+
+
 
 #Wie Calle ich die Stopwatch class richtig?
 

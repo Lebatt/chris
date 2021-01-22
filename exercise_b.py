@@ -7,8 +7,10 @@ class LocationError(Exception):
 class Location:
 
     def __init__(self, latitude, longitude):
-        self.latitude = latitude
-        self.longitude = longitude
+        self.latitude = float(latitude)
+        self.longitude = float(longitude)
+
+        self.check()
 
 
     def distance(self, other):
@@ -27,21 +29,18 @@ class Location:
 
         return math.ceil(r * c)
 
-    def check(self, long):
-        x = float(self, long)
+    def check(self):
 
-        if x[0] < -90:
+        if self.latitude < -90 or self.latitude > 90:
             raise LocationError("Latitude value is under -90")
-        elif x[0] > 90:
-            raise LocationError("Latitude value is above 90")
-        elif [1] < -180:
-            raise LocationError("Longitude value is under -180")
-        elif [1] > 180:
-            raise LocationError("Longitude value is above 180")
-        else:
-            return x
+        
+        if self.longitude < -180 or self.latitude > 180:
+            raise LocationError("Latitude value is under -90")
+        
+        
 
+if __name__ == '__main__':
+    location1 = Location(51.514244, 7.468429)
+    location2 = Location(47.2692124, 11.4041024)
 
-
-
-
+    print(location1.distance(location2))
