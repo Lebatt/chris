@@ -1,0 +1,160 @@
+EDAC,DE,Altenburg-Nobitz Airport,medium_airport,50.981945,12.506389
+EDAH,DE,Heringsdorf Airport,medium_airport,53.8787002563,14.152299881
+EDBM,DE,Magdeburg City Airport,medium_airport,52.073612,11.626389
+EDBN,DE,Neubrandenburg Airport,medium_airport,53.6022,13.306
+EDBR,DE,Rothenburg/Görlitz Airport,medium_airport,51.36333465576172,14.949999809265137
+EDDB,DE,Berlin Brandenburg Airport,large_airport,52.351389,13.493889
+EDDC,DE,Dresden Airport,large_airport,51.1328010559082,13.767200469970703
+EDDE,DE,Erfurt Airport,medium_airport,50.979801177978516,10.958100318908691
+EDDF,DE,Frankfurt am Main Airport,large_airport,50.033333,8.570556
+EDDG,DE,Münster Osnabrück Airport,large_airport,52.134601593,7.68483018875
+EDDH,DE,Hamburg Airport,large_airport,53.630401611328,9.9882297515869
+EDDK,DE,Cologne Bonn Airport,large_airport,50.8658981323,7.1427397728
+EDDL,DE,Düsseldorf Airport,large_airport,51.289501,6.76678
+EDDM,DE,Munich Airport,large_airport,48.353802,11.7861
+EDDN,DE,Nuremberg Airport,large_airport,49.498699,11.078056
+EDDP,DE,Leipzig/Halle Airport,large_airport,51.423889,12.236389
+EDDR,DE,Saarbrücken Airport,medium_airport,49.214599609400004,7.10950994492
+EDDS,DE,Stuttgart Airport,large_airport,48.689899444599995,9.22196006775
+EDDV,DE,Hannover Airport,large_airport,52.461101532,9.685079574580001
+EDDW,DE,Bremen Airport,large_airport,53.0475006104,8.78666973114
+EDFE,DE,Frankfurt-Egelsbach Airport,medium_airport,49.959999,8.645833
+EDFH,DE,Frankfurt-Hahn Airport,medium_airport,49.9487,7.26389
+EDFM,DE,Mannheim-City Airport,medium_airport,49.473057,8.514167
+EDFZ,DE,Mainz-Finthen Airport,medium_airport,49.967499,8.147222
+EDGE,DE,Eisenach-Kindel Airport,medium_airport,50.991604,10.47973
+EDGS,DE,Siegerland Airport,medium_airport,50.707698822021484,8.082969665527344
+EDHI,DE,Hamburg-Finkenwerder Airport,medium_airport,53.5352783203125,9.835556030273438
+EDHK,DE,Kiel-Holtenau Airport,medium_airport,54.37944412231445,10.145277976989746
+EDHL,DE,Lübeck Blankensee Airport,medium_airport,53.8054008484,10.7192001343
+EDJA,DE,Memmingen Allgau Airport,medium_airport,47.988800048799995,10.2395000458
+EDLN,DE,Mönchengladbach Airport,medium_airport,51.230278,6.504444
+EDLP,DE,Paderborn Lippstadt Airport,medium_airport,51.614101409899995,8.616319656369999
+EDLV,DE,Weeze Airport,medium_airport,51.6024017334,6.14216995239
+EDLW,DE,Dortmund Airport,large_airport,51.51829910279999,7.61223983765
+EDMA,DE,Augsburg Airport,medium_airport,48.425278,10.931667
+EDMO,DE,Oberpfaffenhofen Airport,medium_airport,48.081402,11.2831
+EDNY,DE,Friedrichshafen Airport,medium_airport,47.671298980699994,9.51148986816
+EDOP,DE,Schwerin Parchim Airport,medium_airport,53.426998,11.7834
+EDQA,DE,Airport Bamberg-Breitenau,medium_airport,49.920403,10.914233
+EDQD,DE,Bayreuth Airport,medium_airport,49.985001,11.64
+EDQM,DE,Hof-Plauen Airport,medium_airport,50.288612365722656,11.856389045715332
+EDSB,DE,Karlsruhe Baden-Baden Airport,large_airport,48.7793998718,8.08049964905
+EDTD,DE,Donaueschingen-Villingen Airport,medium_airport,47.97333145139999,8.52222156525
+EDTL,DE,Lahr Airport,medium_airport,48.3693008423,7.82772016525
+EDTY,DE,Adolf Würth Airport,medium_airport,49.1183319092,9.783888816829998
+EDUZ,DE,Flugplatz Zerbst,medium_airport,52.000832,12.148611
+EDVE,DE,Braunschweig-Wolfsburg Airport,medium_airport,52.319199,10.5561
+EDVK,DE,Kassel-Calden Airport,medium_airport,51.417273,9.384967
+EDXW,DE,Westerland Sylt Airport,medium_airport,54.9132003784,8.34047031403
+EROR,DE,Impossible Airport Berlin,large_airport,99.591202,222.51148986816
+ETAD,DE,Spangdahlem Air Base,medium_airport,49.9726982117,6.69250011444
+ETAR,DE,Ramstein Air Base,large_airport,49.4369010925293,7.600279808044434
+ETHB,DE,Bückeburg Air Base,medium_airport,52.2785,9.08217
+ETHC,DE,Celle Army Airfield,medium_airport,52.591202,10.0221
+ETHF,DE,Fritzlar Army Airfield,medium_airport,51.1146,9.286
+ETHL,DE,Laupheim Air Base,medium_airport,48.220299,9.91002
+ETHM,DE,Mendig Airfield,medium_airport,50.366001,7.31533
+ETHN,DE,Niederstetten Army Air Base,medium_airport,49.391945,9.958889
+ETHS,DE,Fassberg Air Base,medium_airport,52.919399,10.185827
+ETIC,DE,Grafenwohr Army Air Field,medium_airport,49.698699951171875,11.940199851989746
+ETIH,DE,Hohenfels Army Air Field,medium_airport,49.218101501464844,11.836099624633789
+ETMN,DE,Nordholz Naval Airbase,medium_airport,53.7677001953,8.658499717709999
+ETND,DE,Diepholz Air Base,medium_airport,52.585556,8.342222
+ETNG,DE,Geilenkirchen Air Base,medium_airport,50.9608,6.04242
+ETNH,DE,Hohn Air Base,medium_airport,54.312199,9.53817
+ETNL,DE,Rostock-Laage Airport,medium_airport,53.9182014465,12.278300285299999
+ETNN,DE,Nörvenich Air Base,medium_airport,50.8312,6.65817
+ETNS,DE,Schleswig Air Base,medium_airport,54.459301,9.51633
+ETNT,DE,Wittmundhafen Air Base,medium_airport,53.547798,7.66733
+ETNW,DE,Wunstorf Air Base,medium_airport,52.457298,9.42717
+ETOU,DE,Wiesbaden Army Airfield,medium_airport,50.049800872802734,8.325400352478027
+ETSB,DE,Büchel Air Base,medium_airport,50.1738014221,7.06333017349
+ETSH,DE,Holzdorf Air Base,medium_airport,51.767799,13.1677
+ETSI,DE,Ingolstadt Manching Airport,medium_airport,48.7156982421875,11.534000396728516
+ETSL,DE,Lechfeld Air Base,medium_airport,48.185504,10.8612
+ETSN,DE,Neuburg AFB,medium_airport,48.710999,11.2115
+LIBA,IT,Amendola Air Base,medium_airport,41.541401,15.7181
+LIBC,IT,Crotone Airport,medium_airport,38.9972,17.0802
+LIBD,IT,Bari Karol Wojtyła Airport,large_airport,41.138901,16.760599
+LIBF,IT,Foggia Gino Lisa Airport,medium_airport,41.432899,15.535
+LIBG,IT,Taranto-Grottaglie Marcello Arlotta Airport,medium_airport,40.517502,17.4032
+LIBN,IT,Lecce Galatina Air Base,medium_airport,40.239201,18.133301
+LIBP,IT,Pescara International Airport,medium_airport,42.431702,14.1811
+LIBR,IT,Brindisi – Salento Airport,medium_airport,40.6576,17.947001
+LIBV,IT,Gioia Del Colle Air Base,medium_airport,40.767799,16.9333
+LICA,IT,Lamezia Terme Airport,medium_airport,38.905399,16.2423
+LICB,IT,Comiso Airport,medium_airport,36.994601,14.607182
+LICC,IT,Catania-Fontanarossa Airport,large_airport,37.466801,15.0664
+LICD,IT,Lampedusa Airport,medium_airport,35.497898,12.6181
+LICG,IT,Pantelleria Airport,medium_airport,36.816502,11.9689
+LICJ,IT,Falcone–Borsellino Airport,large_airport,38.175999,13.091
+LICP,IT,Palermo-Boccadifalco Airport,medium_airport,38.110802,13.3133
+LICR,IT,Reggio Calabria Airport,medium_airport,38.071201,15.6516
+LICT,IT,Vincenzo Florio Airport Trapani-Birgi,medium_airport,37.9114,12.488
+LICZ,IT,Sigonella Navy Air Base,medium_airport,37.401699,14.9224
+LIDT,IT,Trento-Mattarello Airport,medium_airport,46.0214,11.1242
+LIEA,IT,Alghero-Fertilia Airport,medium_airport,40.632099,8.29077
+LIED,IT,Decimomannu Air Base,medium_airport,39.354198,8.97248
+LIEE,IT,Cagliari Elmas Airport,large_airport,39.251499,9.05428
+LIEO,IT,Olbia Costa Smeralda Airport,medium_airport,40.898701,9.51763
+LIET,IT,Tortolì Airport,medium_airport,39.9188,9.68298
+LILA,IT,Alessandria Airport,medium_airport,44.925201,8.62513
+LILE,IT,Biella-Cerrione Airport,medium_airport,45.4953,8.10278
+LILI,IT,Vercelli Airport,medium_airport,45.310233,8.417935
+LILM,IT,Casale Monferrato Airport,medium_airport,45.111198,8.45603
+LILN,IT,Varese-Venegono Airport,medium_airport,45.742199,8.888233
+LIMA,IT,Torino-Aeritalia Airport,medium_airport,45.086399,7.60337
+LIMC,IT,Malpensa International Airport,large_airport,45.6306,8.72811
+LIME,IT,Milan Bergamo Airport,large_airport,45.673901,9.70417
+LIMF,IT,Turin Airport,large_airport,45.200802,7.64963
+LIMG,IT,Villanova D'Albenga International Airport,medium_airport,44.050598,8.12743
+LIMJ,IT,Genoa Cristoforo Colombo Airport,large_airport,44.4133,8.8375
+LIML,IT,Milano Linate Airport,large_airport,45.445099,9.27674
+LIMN,IT,Cameri Air Base [MIL],medium_airport,45.529598,8.66922
+LIMP,IT,Parma Airport,medium_airport,44.824501,10.2964
+LIMR,IT,Novi Ligure Airport,medium_airport,44.779999,8.78639
+LIMS,IT,Piacenza San Damiano Air Base,medium_airport,44.913102,9.723322
+LIMW,IT,Aosta Airport,medium_airport,45.738499,7.36872
+LIMZ,IT,Cuneo International Airport,medium_airport,44.547001,7.62322
+LIPA,IT,Aviano Air Base,medium_airport,46.031898,12.596503
+LIPB,IT,Bolzano Airport,medium_airport,46.460201,11.3264
+LIPC,IT,Cervia Air Base,medium_airport,44.224201,12.3072
+LIPE,IT,Bologna Guglielmo Marconi Airport,large_airport,44.5354,11.2887
+LIPH,IT,Treviso-Sant'Angelo Airport,large_airport,45.648399,12.1944
+LIPI,IT,Rivolto Air Base,medium_airport,45.978699,13.0493
+LIPK,IT,Forlì Airport,medium_airport,44.194801,12.0701
+LIPL,IT,Ghedi Air Base,medium_airport,45.432201,10.2677
+LIPO,IT,Brescia Airport,medium_airport,45.428902,10.3306
+LIPQ,IT,Trieste–Friuli Venezia Giulia Airport,medium_airport,45.827499,13.4722
+LIPR,IT,Federico Fellini International Airport,medium_airport,44.020302,12.6117
+LIPS,IT,Istrana Air Base,medium_airport,45.684898,12.0829
+LIPU,IT,Padova Airport,medium_airport,45.395802,11.8479
+LIPX,IT,Verona Villafranca Airport,large_airport,45.395699,10.8885
+LIPY,IT,Ancona Falconara Airport,medium_airport,43.616299,13.3623
+LIPZ,IT,Venice Marco Polo Airport,large_airport,45.505299,12.3519
+LIQS,IT,Siena-Ampugnano Airport,medium_airport,43.256302,11.255
+LIQW,IT,Sarzana-Luni Air Base,medium_airport,44.088001,9.98795
+LIRA,IT,Ciampino–G. B. Pastine International Airport,large_airport,41.7994,12.5949
+LIRE,IT,Pratica Di Mare Air Base,medium_airport,41.654499,12.4452
+LIRF,IT,Leonardo da Vinci–Fiumicino Airport,large_airport,41.8002778,12.2388889
+LIRG,IT,Guidonia Air Base,medium_airport,41.990299,12.7408
+LIRI,IT,Salerno Costa d'Amalfi Airport,medium_airport,40.620399,14.9113
+LIRJ,IT,Marina Di Campo Airport,medium_airport,42.7603,10.2394
+LIRL,IT,Latina Air Base,medium_airport,41.5424,12.909
+LIRM,IT,Grazzanise Air Base,medium_airport,41.060799,14.0819
+LIRN,IT,Naples International Airport,large_airport,40.886002,14.2908
+LIRP,IT,Pisa International Airport,large_airport,43.683899,10.3927
+LIRQ,IT,Peretola Airport,medium_airport,43.810001,11.2051
+LIRS,IT,Grosseto Air Base,medium_airport,42.759701,11.0719
+LIRU,IT,Urbe Airport,medium_airport,41.9519,12.4989
+LIRV,IT,Viterbo Airport,medium_airport,42.430199,12.0642
+LIRZ,IT,Perugia San Francesco d'Assisi – Umbria International Airport,medium_airport,43.095901,12.5132
+LOAN,AT,Wiener Neustadt East Airport,medium_airport,47.843299865722656,16.260099411010742
+LOWG,AT,Graz Airport,medium_airport,46.9911003112793,15.439599990844727
+LOWI,AT,Innsbruck Airport,medium_airport,47.260201,11.344
+LOWK,AT,Klagenfurt Airport,medium_airport,46.642502,14.3377
+LOWL,AT,Linz Hörsching Airport,medium_airport,48.2332,14.1875
+LOWS,AT,Salzburg Airport,medium_airport,47.793300628699996,13.0043001175
+LOWW,AT,Vienna International Airport,large_airport,48.110298156738,16.569700241089
+LOXZ,AT,Hinterstoisser Air Base,medium_airport,47.202801,14.7442
