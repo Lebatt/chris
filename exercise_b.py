@@ -39,8 +39,8 @@ class Location:
         
         
 
-if __name__ == '__main__':
-    location1 = Location(51.514244, 7.468429)
-    location2 = Location(47.2692124, 11.4041024)
+#if __name__ == '__main__':
+ #   location1 = Location(51.514244, 7.468429)
+  #  location2 = Location(47.2692124, 11.4041024)
 
-    print(location1.distance(location2))
+   # print(location1.distance(location2))
