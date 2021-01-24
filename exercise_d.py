@@ -1,9 +1,49 @@
 from exercise_c import Airport, InputError
 from exercise_b import Location, LocationError
 
+
 class AirTrafficControl:
     """Dictionary: Airport Code = KEY"""
     dictionary = {}
+#Exercise E:
+    def file_import(filename):
+        file = open(filename, 'r')
+        for line in file:
+            info = line.split(',')
+            code = info[0]
+            country = info[1]
+            name = info[2]
+            type = info[3]
+            latitude = info[4]
+            longitude = info[5]
+
+        try:
+            add_airport = Airport(code, country, name, type, Location(latitude, longitude))
+
+            AirTrafficControl.dictionary[add_airport.code] = add_airport
+
+        except LocationError(Exception):
+            print("The information of the airport is not valid!")
+
+
+        file.close()
+
+#Exercise F
+    def closest(given_location):
+        the_list = []
+
+        #iteration over entries in AirTrafficControl.dictionary
+        for entry in AirTrafficControl.dictionary:
+            #Distance calculation
+            distance_calculation = AirTrafficControl.dictionary[entry].location.distance(given_location)
+            #create tuple - first value distance between location AND instance of airport itself
+            the_tuple = (distance_calculation, AirTrafficControl.dictionary[entry])
+            #adding tuple to the list
+            the_list.append(the_tuple)
+        #sorting list by distance to location - https://stackoverflow.com/questions/8966538/syntax-behind-sortedkey-lambda
+        sorted(the_list, key= lambda tupl: tupl[0])
+        print(the_list[:10])
+
 
     def new_airport(self):
 
@@ -14,6 +54,7 @@ class AirTrafficControl:
         alatitude = input("Enter latitude: ")
         alongitude = input("Enter longitude: ")
 
+        alocation = Location(alatitude, alongitude)
         try: 
             alocation = Location(alatitude, alongitude)
         except LocationError:
@@ -22,7 +63,7 @@ class AirTrafficControl:
         try:
             new_airport = Airport(acode, acountry, aname, atype, alocation)
             self.dictionary[new_airport.code] = new_airport
-            print("// New Airport added")
+            print("\n New Airport added")
             show_menu()
         except InputError:
             self.new_airport()
@@ -34,10 +75,10 @@ class AirTrafficControl:
 
     def search_airport(self, code):
         if code in self.dictionary:
-            print(self.dictionary[code]) # you can use print(Airport), beacause Airport overrides the method __str__
+            print(self.dictionary[code])  # you can use print(Airport), because Airport overrides the method __str__
             return self.dictionary[code]
         else:
-            print("\n// Airport not found")
+            print("\n Airport not found")
             show_menu()
 
     def airport_list(self):
@@ -52,19 +93,24 @@ class AirTrafficControl:
             a2 = self.search_airport(codeB)
 
             print(a1.__sub__(a2))
+            show_menu()
         except:
             show_menu()
+
+
+
+
 
 
 def show_menu():
     at = AirTrafficControl()
 
-    print("\n-------------- Add new airport -----------")
+    print("\n-------------- Airport Menu -----------")
     print("1- add airport")
     print("2- delete airport")
     print("3- search airport")
     print("4- calculate distance")
-    print("5- Show list of airports")
+    print("5- show list of airports")
 
     action = input("choose an action: ")
 
@@ -85,7 +131,7 @@ def show_menu():
         at.airport_list()
     else:
         show_menu()
-    
 
 if __name__ == '__main__':
     show_menu()
+

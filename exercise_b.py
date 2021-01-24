@@ -38,7 +38,7 @@ class Location:
             raise LocationError("Latitude value is under -90")
         
         
-
+#Distance from Dortmund (location1) to Innsbruck (location2)
 #if __name__ == '__main__':
  #   location1 = Location(51.514244, 7.468429)
   #  location2 = Location(47.2692124, 11.4041024)

@@ -5,7 +5,7 @@ import time
 
 def random_list():
     my_list = []
-    numerus = 10000
+    numerus = 100
     for i in range(1, numerus + 1):
         n = random.randint(1, numerus)
         my_list.append(n)
@@ -49,9 +49,3 @@ with Stopwatch("Final Time: ") as stopwatch:
     selection_sort(my_list)
     stopwatch
 
-
-
-#Wie Calle ich die Stopwatch class richtig?
-
-#Time for sorting list of 100 elements: 2.032 seconds
-#Time for sorting list of 100000 elements:

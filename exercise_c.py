@@ -1,6 +1,5 @@
 from exercise_b import Location
 
-#Muss ich immer einen neuen Exception error definieren? oder kann der aus exercise_b verwendet werden?
 class InputError(Exception):
     """Raised if input values are incorrect"""
     pass
@@ -11,8 +10,6 @@ class Airport:
         self.name = str(name)
         self.location = location
 
-# 1) Wo müssen diese Statements hin?
-# 2) Overriding methods: muss ich dafür für jeden member (code,country, etc.) zunächst eine Function erstellen, die dann was anderes returned?
 
         if len(code) == 4:
             self.code = code
